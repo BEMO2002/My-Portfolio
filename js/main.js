@@ -54,8 +54,15 @@ btn.onclick = function(){
 
 
 
+setTimeout(function(){
+  var notification = document.getElementById("Notification");
+  notification.classList.add("show");
+},1000)
 
-
+function closeNotification(){
+  var notification = document.getElementById("Notification");
+  notification.classList.remove("show");
+}
 
 
 
