@@ -1,3 +1,4 @@
+// filter projects
 document.addEventListener("DOMContentLoaded", function () {
   const mixer = mixitup('.mix-container');
 
@@ -14,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-
+//change active buttons
 document.addEventListener("DOMContentLoaded", function () {
   const buttons = document.querySelectorAll(".filter-btn");
 
@@ -32,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-
+// up and down button
 let btn = document.querySelector(".top");
 window.onscroll = function (){
   if(window.scrollY >= 600){
@@ -53,7 +54,7 @@ btn.onclick = function(){
 
 
 
-
+// notification message
 setTimeout(function(){
   var notification = document.getElementById("Notification");
   notification.classList.add("show");
