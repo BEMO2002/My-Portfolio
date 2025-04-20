@@ -953,6 +953,16 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#60d8f1\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(96 216 241 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#a052f3\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(160 82 243 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-30 {
   --tw-bg-opacity: 0.3;
 }
