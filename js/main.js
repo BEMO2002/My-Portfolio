@@ -218,5 +218,5 @@ window.addEventListener("load", () => {
   setTimeout(() => {
     document.getElementById("loading").style.display = "none";
     document.getElementById("data").style.display = "block";
-  }, 3000);
+  }, 2500);
 });
