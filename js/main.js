@@ -71,7 +71,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const formStatus = document.getElementById("formStatus");
   const messageCount = document.getElementById("messageCount");
 
-  // Character counter for message
   messageInput.addEventListener("input", function () {
     const count = this.value.length;
     messageCount.textContent = count;
@@ -89,7 +88,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // Function to show error
   function showError(element, message) {
     const errorSpan = document.getElementById(element.id + "Error");
     errorSpan.textContent = message;
@@ -128,12 +126,10 @@ document.addEventListener("DOMContentLoaded", function () {
   form.addEventListener("submit", function (e) {
     e.preventDefault();
 
-    // Reset previous errors
     hideError(nameInput);
     hideError(emailInput);
     hideError(messageInput);
 
-    // Validate all fields
     let isValid = true;
 
     if (nameInput.value.length < 2 || nameInput.value.length > 50) {
@@ -156,7 +152,6 @@ document.addEventListener("DOMContentLoaded", function () {
       return;
     }
 
-    // Disable submit button and show loading state
     submitButton.disabled = true;
     submitButton.textContent = "Sending...";
 
