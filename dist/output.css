@@ -1100,6 +1100,11 @@ video {
   padding-bottom: 5px;
 }
 
+.px-\[14px\] {
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
 .pb-20 {
   padding-bottom: 5rem;
 }
